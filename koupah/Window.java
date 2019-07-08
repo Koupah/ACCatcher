@@ -27,7 +27,7 @@ public class Window extends JFrame {
 
 		for (Category c : Category.values()) {
 			if (c.equals(Category.DoubleClick))
-				checks.add(new Check(c, 2, c.name()));
+				checks.add(new Check(c, 1, c.name()));
 			else if (c.equals(Category.DoubleRelease))
 				checks.add(new Check(c,1,c.name()));
 			else if (c.equals(Category.FastClick))
